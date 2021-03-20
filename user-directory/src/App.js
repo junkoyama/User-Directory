@@ -1,16 +1,15 @@
 import React from "react";
 import Jumbotron from "./components/Jumbotron";
+import getTable from "./components/Table";
+import {Container} from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Jumbotron/>
-        <p>
-          Edit and save to reload.
-        </p>
-          Learn React
-      </header>
+        <Jumbotron />
+      <Container>
+        <getTable/>
+      </Container>
     </div>
   );
 }
