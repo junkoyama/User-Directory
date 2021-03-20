@@ -5,11 +5,11 @@ import {Container} from 'react-bootstrap';
 export default function setJumbotron() {
   return (
     <>
-      <Jumbotron fluid>
+      <Jumbotron fluid align="center">
         <Container>
           <h1>User Directory</h1>
           <p>
-            Start to view your employees here
+            Start to view your employees here!
           </p>
         </Container>
       </Jumbotron>

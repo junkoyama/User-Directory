@@ -1,14 +1,14 @@
 import React from "react";
 import Jumbotron from "./components/Jumbotron";
-import getTable from "./components/Table";
-import {Container} from "react-bootstrap";
+import UserTable from "./components/UserTable";
+import { Container } from "react-bootstrap";
 
 function App() {
   return (
     <div className="App">
-        <Jumbotron />
+      <Jumbotron />
       <Container>
-        <getTable/>
+        <UserTable />
       </Container>
     </div>
   );
